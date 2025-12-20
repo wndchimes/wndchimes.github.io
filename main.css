@@ -1,0 +1,21 @@
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    -webkit-box-shadow: 10px 10px 50px 30px rgba(111, 111, 111, 0.65);
+    box-shadow: 10x 10px 50px 30px rgba(111, 111, 111, 0.65);
+}
+
+body {
+    background-color: #efefef;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+p {
+    color: #000000;
+    text-decoration: wavy;
+}
