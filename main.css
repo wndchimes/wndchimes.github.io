@@ -4,12 +4,24 @@
     width: 50%;
 }
 
-img {
-    -webkit-box-shadow: 10px 10px 50px 30px rgba(111, 111, 111, 0.65);
-    box-shadow: 10x 10px 50px 30px rgba(111, 111, 111, 0.65);
+.shadowed {
+    -webkit-box-shadow: 10px 10px 50px 30px rgb(212, 212, 212);
+    box-shadow: 10x 10px 50px 30px rgb(212, 212, 212);
+}
+
+hr {
+    scale: 145%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 0.5;
 }
 
 body {
+    line-height: 1.4;
     background-color: #efefef;
     text-align: center;
     font-family:'Courier New', Courier, monospace
