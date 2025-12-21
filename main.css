@@ -1,7 +1,16 @@
 .centered {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50vh;
+    margin: auto;
+    width: 50%;
+}
+
+.container {
+    margin-top: 10vh;
+    width: 75%;
+    max-width: 1000px;
+    border-style:dashed;
+    border-color: #dfdfdf;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .shadowed {
