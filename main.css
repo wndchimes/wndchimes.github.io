@@ -20,9 +20,19 @@ footer {
     line-height: 0.5;
 }
 
+a {
+    color: deepskyblue;
+    transition: .2s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
 body {
-    line-height: 1.4;
-    background-color: #efefef;
+    line-height: 1.8;
+    background-color: #f2f2f2;
     text-align: center;
     font-family: "ms gothic";
     font-size: 13px;
