@@ -1,5 +1,4 @@
 .centered {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50vh;
@@ -25,10 +24,10 @@ body {
     line-height: 1.4;
     background-color: #efefef;
     text-align: center;
-    font-family:'Courier New', Courier, monospace
+    font-family: "ms gothic";
+    font-size: 13px;
 }
 
 p {
     color: #000000;
-    text-decoration: wavy;
 }
