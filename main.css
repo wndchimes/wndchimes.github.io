@@ -13,6 +13,12 @@
     padding: 10px;
 }
 
+video {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
 .shadowed {
     -webkit-box-shadow: 10px 10px 50px 30px rgb(212, 212, 212);
     box-shadow: 10x 10px 50px 30px rgb(212, 212, 212);
