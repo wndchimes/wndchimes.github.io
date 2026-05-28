@@ -1,0 +1,26 @@
+body {
+    line-height: 1.4;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 16px)
+}
+
+a {
+    color: #1970fc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+}
