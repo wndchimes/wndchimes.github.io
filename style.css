@@ -3,13 +3,40 @@ body {
     font-size: larger;
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - 16px)
+    min-height: calc(100vh - 16px);
+    text-align: center;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
     color: #1970fc;
     text-decoration: none;
     transition: 0.5s;
+}
+
+.gaytext {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gay-shift 5s linear infinite;
+}
+
+@keyframes gay-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 200% 50%;
+    }
 }
 
 a:hover {
