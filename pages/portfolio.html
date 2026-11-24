@@ -4,41 +4,72 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>portfolio - chimes</title>
+    <title>index - chimes</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' href='/mainold.css'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
-        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' href='/style.css'>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <div class="centered container">
-        <header>
-            <h2>portfolio</h2>
-            <hr>
-        </header>
+    <main>
+        <a href="#" onclick="history.back(); return false;">Back</a>
+        <hr>
 
-        <section>
-            <p>dragon flying and mounting system, made for a commission</p>
-            <video controls class="centered">
-                <source src="/portfolio_videos/sotb dragon.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <h2 class="gaytext">
+            Portfolio
+        </h2>
+        <div class="gridbox">
+            <div class="griditem">
+                <video controls class="centered">
+                    <source src="/portfolio_videos/sotb dragon.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>dragon flying and mounting system, made for a commission</p>
+            </div>
 
-            <p>fps system with procedural animations,<br> everything except the idle animation is moved with springs.<br> uses fastcast</p>
-            <video controls class="centered">
-                <source src="/portfolio_videos/fps game.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <div class="griditem">
+                <video controls class="centered">
+                    <source src="/portfolio_videos/fps game.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>fps system with procedural animations,
+                    <br> everything except the idle animation is moved with
+                    springs.
+                    <br>uses fastcast
+                </p>
+            </div>
+
+            <div class="griditem">
+
+                <video controls class="centered">
+                    <source src="/portfolio_videos/astroneer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>astroneer inspired game, with an oxygen system, working tethers, a buggy,<br> wiring system, a (kinda
+                    unfinished) inventory and mining system <br>and a terrain editing tool</p>
+            </div>
+
             
-            <p>astroneer inspired game, with an oxygen system, working tethers, a buggy,<br> wiring system, a (kinda unfinished) inventory and mining system <br>and a terrain editing tool</p>
-            <video controls class="centered">
-                <source src="/portfolio_videos/astroneer.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </section>
-    </div>
+            <div class="griditem">
+
+                <video controls class="centered">
+                    <source src="/portfolio_videos/gtd2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>tower defense game where there is no path and you can move your towers <br>
+                    made entirely by me, even the assets <br>
+                    game is fully functional and has an entire wave structure <br>
+                    enemies and towers use OOP for their code <br>
+                    animations and vfx are done on the client
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p>chimes.foo.ng 2025-2027</p>
+    </footer>
 </body>
 
 </html>
